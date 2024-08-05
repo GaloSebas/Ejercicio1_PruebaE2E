@@ -1,0 +1,25 @@
+Conclusiones:
+
+    -El portal web de prueba presenta varios desafios interesantes que permiten tomar diferentes enfoques de automatizacion y hacer uso de
+     diferentes librerias para conseguir las validaciones deseadas. Por ejemplo al agregar un producto al carrito de compras se debe aceptar
+     un alert del navegador, elemento que se debe tratar eficientemente con Selenium, el orden en el cual se agregan los productos al carrito
+     de compras no siempre es el mismo y no siempre respeta el orden alfabetico lo cual dificulta el encontrarlos directamente con un XPATH en 
+     especifico, asi como otros escenarios similares.
+
+    -Se ha construido el cuerpo del script de pruebas seccionado en funciones para un facil mantenimiento de los casos de prueba y la
+     posibilidad de un rapido escalamiento con funciones que se pueden invocar en repetidas ocaciones y en diferentes casos de prueba.
+
+    -Con el objetivo de conseguir una iteracion eficiente de ejecucion se han utilizado valores randomicos para que cada prueba sea distinta
+     y el portal web pueda ser evaluado con diferentes datos en cada iteracion, por ejemplo la seleccion de productos varia entre las iteraciones,
+     los datos ingresados en el formulario de compra son randomicos generados con una libreria de Fake Data y scenarios similares.
+
+    -Adicional a los pasos requeridos del ejercicio se han implementado validaciones con el fin de comprobar que el flujo se ejecute 
+     con la informacion esperada y el portal funcione coherentemente, por ejemplo los productos tienen diferentes nombres, diferentes precios, en
+     cada iteracion hay un diferente total, diferentes datos del usuario, todo el ejercicio se ha construido para que al ser ejecutado valide informacion
+     generada randomicamente en lugar de usar informacion quemada y repetitiva.
+
+    -Para algunas validaciones se vio necesario implementar pausas hasta alcanzar condiciones esperadas con el fin de evitar falsos positivos en la
+     busqueda de posibles errores del flujo probado. Adicional a esto se ha surtido un grupo de logs a imprimirse con pistas claras del posible error
+     dentro de cada paso ejecutado en el flujo probado, para facilitar el proceso del debuging.
+
+    -El ejercicio resulta muy divertido e interesante, muy util para poner en practica los conocimientos obtenidos de automatizacion.
