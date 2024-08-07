@@ -22,10 +22,8 @@
 
 - Desde el terminal ejecuta los siguientes comandos:
 
-    1. ```sh
-    pip install -r ./config/requirements.txt
-    2. ```sh
-    python3 main.py
+    1. pip install -r ./config/requirements.txt
+    2. python3 main.py
 
 ### Descripcion de las Tecnologias Utilizadas
 
